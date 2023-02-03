@@ -5,18 +5,18 @@ public class Lab2b {
 	
 	    Scanner input = new Scanner(System.in); 
 	    
-	    double celsius, xyz;
+	    double celsius, fahrenheit;
 	    
-	    System.out.println("Please enter a Celsius value: ");
+	    System.out.print("Please enter a Celsius value: ");
 	    celsius = input.nextDouble();
-	    xyz = celsius * 1.8 + 32;
-	    System.out.printf("Converting " + celsius + " C to F: %.2f F",xyz,celsius);
+	    fahrenheit = celsius * 1.8 + 32;
+	    System.out.printf("Converting " + celsius + " C to F: %.2f F",fahrenheit,celsius);
 	    System.out.println();
 	    System.out.print("Please enter a Fahrenheit value: ");
-	    double fahrenheit = input.nextDouble();
+	    double fahrenheit2 = input.nextDouble();
 
-	    double celsius2 = (( 5 * (fahrenheit - 32.0)) / 9.0);
-	    System.out.printf("Converting " + fahrenheit + " F to C: %.2f C",celsius2);
+	    double celsius2 = (( 5 * (fahrenheit2 - 32)) / 9.0);
+	    System.out.printf("Converting " + fahrenheit2 + " F to C: %.2f C",celsius2);
 	    
 	    input.close();
 	}
