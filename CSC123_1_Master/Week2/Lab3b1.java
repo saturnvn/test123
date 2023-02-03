@@ -6,7 +6,7 @@ public class Lab3b1 {
 		//int x = 130;
 		//byte y = (byte) x;
 		//System.out.println(x);
-		
+		//look at notes on modules and also study modules(remove this after)
 	
 	}
 
