@@ -1,6 +1,5 @@
 //Sidney Mcclendon smcclendon1@toromail.csudh.edu
 
-
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Scanner;
