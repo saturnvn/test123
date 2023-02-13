@@ -1,5 +1,4 @@
 //Sidney Mcclendon smcclendon1@toromail.csudh.edu
-package assignment2;
 
 import java.util.Scanner;
 
