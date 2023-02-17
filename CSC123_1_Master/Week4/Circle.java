@@ -18,7 +18,7 @@ public class Circle {
 	
 	@Override
 	public String toString() {
-		return s + "\nRadius: " + radius + "\nArea: " + getArea() + "\nCircumference: " + getCircumference();
+		return s + "\nRadius       : " + radius + "\nArea         : " + String.format("%.2f", getArea()) + "\nCircumference: " + String.format("%.2f", getCircumference());
 		
 	}
 	
